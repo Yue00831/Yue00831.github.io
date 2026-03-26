@@ -1,28 +1,711 @@
----
-layout: single
-author_profile: true
-title: "Welcome"
-permalink: /
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yue Li — Academic Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-I am a PhD candidate in Linguistics at [Purdue University](https://www.purdue.edu/). My research investigates how humans and large language models process syntactic structures. I use behavioral experiments, computational modeling, and mechanistic interpretability methods.
+    :root {
+      --bg: #fafaf8;
+      --surface: #f3f2ee;
+      --border: #ddd9d0;
+      --text: #1a1917;
+      --muted: #6b6760;
+      --accent: #2a52a0;
+      --accent-light: #e8edf7;
+      --tag-bg: #ededea;
+    }
 
-## Research Interests
+    html { scroll-behavior: smooth; }
 
-- **Psycholinguistics**: Sentence processing, syntactic structure, animacy effects
-- **Computational Modeling**: Large language models, linking hypotheses between models and human behavior
-- **Mechanistic Interpretability**: Understanding how neural networks represent and process linguistic information
+    body {
+      font-family: 'EB Garamond', Georgia, serif;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 18px;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
 
-## Lab Affiliations
+    /* ── NAV ── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(250, 250, 248, 0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+    }
 
-- [Experimental Linguistics (Exling) Lab](https://cla.purdue.edu/english/francislab/) — Purdue University
-- [Computational Approaches to Language in Mind (CALM) Lab](https://yancong222.github.io/)
+    .nav-name {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      text-transform: uppercase;
+    }
 
-## News
+    .nav-links {
+      display: flex;
+      gap: 2.2rem;
+      list-style: none;
+    }
 
-- **2026**: Presented at LSA 2026 and HSP 2026
-- *More updates coming soon...*
+    .nav-links a {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.72rem;
+      font-weight: 400;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.2s;
+      padding-bottom: 2px;
+      border-bottom: 1.5px solid transparent;
+    }
 
----
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
 
-Feel free to reach out via email or connect with me on [LinkedIn](https://www.linkedin.com/in/yue-li-34047933a/)!
+    /* ── LAYOUT ── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    section {
+      padding: 5rem 0;
+      border-bottom: 1px solid var(--border);
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity 0.55s ease, transform 0.55s ease;
+    }
+
+    section.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    section:last-of-type { border-bottom: none; }
+
+    /* ── HERO / ABOUT ── */
+    #about {
+      padding-top: 6rem;
+      display: grid;
+      grid-template-columns: 1fr 220px;
+      gap: 4rem;
+      align-items: start;
+    }
+
+    .about-text h1 {
+      font-size: 2.6rem;
+      font-weight: 500;
+      line-height: 1.15;
+      letter-spacing: -0.01em;
+      margin-bottom: 0.3rem;
+    }
+
+    .about-text .title {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1.6rem;
+    }
+
+    .about-text p {
+      color: #3a3835;
+      margin-bottom: 1rem;
+      font-size: 1.05rem;
+    }
+
+    .contact-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin-top: 1.8rem;
+    }
+
+    .contact-links a {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--accent);
+      text-decoration: none;
+      border: 1px solid var(--accent);
+      padding: 0.35rem 0.85rem;
+      border-radius: 2px;
+      transition: background 0.18s, color 0.18s;
+    }
+
+    .contact-links a:hover {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .avatar-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.9rem;
+    }
+
+    .avatar-placeholder {
+      width: 170px;
+      height: 170px;
+      border-radius: 4px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .avatar-placeholder svg {
+      width: 72px;
+      height: 72px;
+      opacity: 0.3;
+    }
+
+    .avatar-info {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      text-align: center;
+      line-height: 1.5;
+    }
+
+    /* ── SECTION HEADINGS ── */
+    .section-label {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 2.2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* ── RESEARCH ── */
+    .papers { display: flex; flex-direction: column; gap: 2rem; }
+
+    .paper {
+      padding: 1.4rem 1.6rem;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      background: var(--bg);
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .paper:hover {
+      border-color: var(--accent);
+      box-shadow: 0 2px 12px rgba(42, 82, 160, 0.07);
+    }
+
+    .paper-title {
+      font-size: 1.05rem;
+      font-weight: 500;
+      margin-bottom: 0.3rem;
+      color: var(--text);
+    }
+
+    .paper-authors {
+      font-size: 0.88rem;
+      color: var(--muted);
+      margin-bottom: 0.6rem;
+      font-style: italic;
+    }
+
+    .paper-venue {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.05em;
+      color: var(--accent);
+      margin-bottom: 0.8rem;
+    }
+
+    .paper-desc {
+      font-size: 0.93rem;
+      color: #4a4845;
+      line-height: 1.65;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.9rem;
+    }
+
+    .tag {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      background: var(--tag-bg);
+      color: var(--muted);
+      padding: 0.2rem 0.55rem;
+      border-radius: 2px;
+    }
+
+    .paper-links {
+      margin-top: 0.8rem;
+      display: flex;
+      gap: 0.8rem;
+    }
+
+    .paper-links a {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.63rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .paper-links a:hover { text-decoration: underline; }
+
+    /* ── TEACHING ── */
+    .courses { display: flex; flex-direction: column; gap: 1.4rem; }
+
+    .course {
+      display: grid;
+      grid-template-columns: 120px 1fr;
+      gap: 1.2rem;
+      padding: 1.2rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .course:last-child { border-bottom: none; }
+
+    .course-code {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--accent);
+      padding-top: 0.15rem;
+    }
+
+    .course-name {
+      font-size: 1rem;
+      font-weight: 500;
+      margin-bottom: 0.2rem;
+    }
+
+    .course-role {
+      font-size: 0.88rem;
+      color: var(--muted);
+      font-style: italic;
+      margin-bottom: 0.35rem;
+    }
+
+    .course-desc {
+      font-size: 0.92rem;
+      color: #4a4845;
+    }
+
+    /* ── CV ── */
+    .cv-section { margin-bottom: 2.4rem; }
+
+    .cv-section-title {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.66rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 1rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .cv-item {
+      display: grid;
+      grid-template-columns: 110px 1fr;
+      gap: 1rem;
+      margin-bottom: 1.1rem;
+    }
+
+    .cv-year {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.68rem;
+      color: var(--muted);
+      padding-top: 0.15rem;
+    }
+
+    .cv-detail strong {
+      font-size: 1rem;
+      font-weight: 500;
+      display: block;
+    }
+
+    .cv-detail span {
+      font-size: 0.9rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    .cv-download {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: 'DM Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: #fff;
+      background: var(--accent);
+      text-decoration: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 2px;
+      margin-bottom: 2.8rem;
+      transition: opacity 0.2s;
+    }
+
+    .cv-download:hover { opacity: 0.85; }
+
+    /* ── FOOTER ── */
+    footer {
+      padding: 2.5rem 0;
+      text-align: center;
+      font-family: 'DM Mono', monospace;
+      font-size: 0.63rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+
+    footer a { color: var(--accent); text-decoration: none; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 680px) {
+      #about {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+      }
+      .avatar-card { flex-direction: row; align-items: center; }
+      .avatar-placeholder { width: 90px; height: 90px; }
+      nav { padding: 0 1.2rem; }
+      .nav-links { gap: 1.2rem; }
+      .course { grid-template-columns: 1fr; gap: 0.2rem; }
+      .cv-item { grid-template-columns: 80px 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <span class="nav-name">Yue Li</span>
+    <ul class="nav-links">
+      <li><a href="#about" class="active">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#teaching">Teaching</a></li>
+      <li><a href="#cv">CV</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="about-text">
+        <h1>Yue Li</h1>
+        <p class="title">PhD Researcher · Computer Science &amp; Cognitive Science</p>
+        <p>
+          I am a researcher working at the intersection of <em>computational linguistics</em>, <em>cognitive science</em>, and <em>large language models</em>. My work investigates how humans and machines process language — from quantifier scope and animacy to working memory and probabilistic inference.
+        </p>
+        <p>
+          I am particularly interested in using behavioral experiments and computational modeling to probe the cognitive mechanisms underlying language comprehension, and in understanding how LLMs align with (or diverge from) human linguistic behavior.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:yli@university.edu">Email</a>
+          <a href="https://github.com/Yue00831" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="#cv">Curriculum Vitae</a>
+        </div>
+      </div>
+
+      <div class="avatar-card">
+        <div class="avatar-placeholder">
+          <!-- User silhouette placeholder -->
+          <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="40" cy="28" r="16" fill="#aaa8a0"/>
+            <ellipse cx="40" cy="68" rx="26" ry="16" fill="#aaa8a0"/>
+          </svg>
+        </div>
+        <div class="avatar-info">
+          Yue Li<br/>
+          [Your Institution]<br/>
+          [Your Department]
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research">
+      <div class="section-label">Research</div>
+      <div class="papers">
+
+        <div class="paper">
+          <div class="paper-title">Animacy and Orchestral Behavior in LLMs</div>
+          <div class="paper-authors">Yue Li</div>
+          <div class="paper-venue">Working Paper · 2024</div>
+          <p class="paper-desc">
+            This project investigates how animacy—the distinction between animate and inanimate entities—shapes language model behavior. Using controlled stimuli and behavioral probes, we examine whether LLMs exhibit animacy-driven processing biases analogous to those observed in human psycholinguistics.
+          </p>
+          <div class="tags">
+            <span class="tag">LLMs</span>
+            <span class="tag">Animacy</span>
+            <span class="tag">Psycholinguistics</span>
+            <span class="tag">Python</span>
+          </div>
+          <div class="paper-links">
+            <a href="https://github.com/Yue00831/Animacy_orc_LLMbehav" target="_blank" rel="noopener">↗ GitHub</a>
+          </div>
+        </div>
+
+        <div class="paper">
+          <div class="paper-title">Quantifier Scope, Reading Times &amp; LLM Behavior</div>
+          <div class="paper-authors">Yue Li</div>
+          <div class="paper-venue">Working Paper · 2024</div>
+          <p class="paper-desc">
+            An empirical study comparing quantifier scope ambiguity resolution in human reading time experiments (SAP paradigm) with LLM predictions. We investigate whether surface-to-semantic mapping in LLMs mirrors psycholinguistic constraints from scopal processing.
+          </p>
+          <div class="tags">
+            <span class="tag">Quantifier Scope</span>
+            <span class="tag">Reading Times</span>
+            <span class="tag">Semantics</span>
+            <span class="tag">LLMs</span>
+          </div>
+          <div class="paper-links">
+            <a href="https://github.com/Yue00831/SAP_Quantifier_Scope_RT_LLM" target="_blank" rel="noopener">↗ GitHub</a>
+          </div>
+        </div>
+
+        <div class="paper">
+          <div class="paper-title">Conditional Log-Probability as a Measure of Surprisal</div>
+          <div class="paper-authors">Yue Li</div>
+          <div class="paper-venue">Tool / Software · 2024</div>
+          <p class="paper-desc">
+            A Python toolkit for computing the conditional log probability of a target sentence given a context sentence. This measure of surprisal supports psycholinguistic research that uses LLM next-word probability distributions as proxies for human processing difficulty.
+          </p>
+          <div class="tags">
+            <span class="tag">Surprisal</span>
+            <span class="tag">Probability</span>
+            <span class="tag">Python</span>
+            <span class="tag">NLP</span>
+          </div>
+          <div class="paper-links">
+            <a href="https://github.com/Yue00831/conditional-probability" target="_blank" rel="noopener">↗ GitHub</a>
+          </div>
+        </div>
+
+        <div class="paper">
+          <div class="paper-title">Working Memory and Language Processing</div>
+          <div class="paper-authors">Yue Li</div>
+          <div class="paper-venue">Ongoing · 2024–Present</div>
+          <p class="paper-desc">
+            This project explores the role of working memory capacity in sentence comprehension, particularly for syntactically complex structures. We examine individual differences in memory span and their interaction with grammatical complexity using behavioral and computational methods.
+          </p>
+          <div class="tags">
+            <span class="tag">Working Memory</span>
+            <span class="tag">Syntax</span>
+            <span class="tag">Cognitive Science</span>
+          </div>
+          <div class="paper-links">
+            <a href="https://github.com/Yue00831/Working-memory" target="_blank" rel="noopener">↗ GitHub</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TEACHING -->
+    <section id="teaching">
+      <div class="section-label">Teaching</div>
+      <div class="courses">
+
+        <div class="course">
+          <div class="course-code">LING / CS</div>
+          <div>
+            <div class="course-name">Introduction to Computational Linguistics</div>
+            <div class="course-role">Teaching Assistant · [Your University] · Fall 2024</div>
+            <div class="course-desc">
+              Led weekly discussion sections and office hours covering formal grammars, finite-state automata, probabilistic parsing, and neural language models. Developed supplementary exercises on Python-based NLP toolkits.
+            </div>
+          </div>
+        </div>
+
+        <div class="course">
+          <div class="course-code">COGS</div>
+          <div>
+            <div class="course-name">Language and Mind</div>
+            <div class="course-role">Teaching Assistant · [Your University] · Spring 2024</div>
+            <div class="course-desc">
+              Supported an undergraduate course bridging psycholinguistics and cognitive science. Facilitated discussion of experimental methods including self-paced reading, eye-tracking, and priming paradigms.
+            </div>
+          </div>
+        </div>
+
+        <div class="course">
+          <div class="course-code">CS</div>
+          <div>
+            <div class="course-name">Data Structures and Algorithms</div>
+            <div class="course-role">Grader · [Your University] · Fall 2023</div>
+            <div class="course-desc">
+              Graded weekly problem sets and provided written feedback on algorithmic complexity, correctness, and code quality for an introductory CS course.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CV -->
+    <section id="cv">
+      <div class="section-label">Curriculum Vitae</div>
+
+      <a href="#" class="cv-download">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+          <polyline points="7 10 12 15 17 10"/>
+          <line x1="12" y1="15" x2="12" y2="3"/>
+        </svg>
+        Download Full CV (PDF)
+      </a>
+
+      <div class="cv-section">
+        <div class="cv-section-title">Education</div>
+        <div class="cv-item">
+          <div class="cv-year">2023 – Present</div>
+          <div class="cv-detail">
+            <strong>Ph.D. in [Your Department]</strong>
+            <span>[Your University]</span>
+          </div>
+        </div>
+        <div class="cv-item">
+          <div class="cv-year">2019 – 2023</div>
+          <div class="cv-detail">
+            <strong>B.S. in [Your Undergraduate Major]</strong>
+            <span>[Undergraduate Institution]</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cv-section">
+        <div class="cv-section-title">Research Experience</div>
+        <div class="cv-item">
+          <div class="cv-year">2023 – Present</div>
+          <div class="cv-detail">
+            <strong>Graduate Research Assistant</strong>
+            <span>[Lab Name], [Your University]</span>
+          </div>
+        </div>
+        <div class="cv-item">
+          <div class="cv-year">2022 – 2023</div>
+          <div class="cv-detail">
+            <strong>Undergraduate Research Assistant</strong>
+            <span>[Lab Name], [Undergraduate Institution]</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cv-section">
+        <div class="cv-section-title">Selected Publications &amp; Preprints</div>
+        <div class="cv-item">
+          <div class="cv-year">2024</div>
+          <div class="cv-detail">
+            <strong>Animacy and Orchestral Behavior in LLMs</strong>
+            <span>Yue Li. Working paper.</span>
+          </div>
+        </div>
+        <div class="cv-item">
+          <div class="cv-year">2024</div>
+          <div class="cv-detail">
+            <strong>Quantifier Scope, Reading Times &amp; LLM Behavior</strong>
+            <span>Yue Li. Working paper.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cv-section">
+        <div class="cv-section-title">Skills &amp; Tools</div>
+        <div class="cv-item">
+          <div class="cv-year">Languages</div>
+          <div class="cv-detail">
+            <strong>Python, R, HTML/CSS, JavaScript</strong>
+          </div>
+        </div>
+        <div class="cv-item">
+          <div class="cv-year">Tools</div>
+          <div class="cv-detail">
+            <strong>PyTorch, HuggingFace Transformers, Gorilla (online experiments), NLTK, Pandas</strong>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Yue Li · <a href="https://github.com/Yue00831" target="_blank" rel="noopener">github.com/Yue00831</a></p>
+  </footer>
+
+  <script>
+    // Intersection observer for fade-in animations
+    const sections = document.querySelectorAll('section');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.07 });
+    sections.forEach(s => observer.observe(s));
+
+    // Active nav highlight on scroll
+    const navLinks = document.querySelectorAll('.nav-links a');
+    const sectionEls = document.querySelectorAll('section[id]');
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sectionEls.forEach(s => {
+        if (window.scrollY >= s.offsetTop - 100) current = s.id;
+      });
+      navLinks.forEach(a => {
+        a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+      });
+    }, { passive: true });
+  </script>
+</body>
+</html>
