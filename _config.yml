@@ -1,35 +1,48 @@
+# Welcome to Jekyll!
 # Site Settings
-title: Yue Li
-subtitle: "PhD Candidate in Linguistics"
-name: Yue Li
-description: "PhD Candidate at Purdue University researching psycholinguistics, computational modeling, and mechanistic interpretability."
+locale: "en-US"
+title: "Yue Li"
+title_separator: "|"
+subtitle: "PhD Candidate in Linguistics · Purdue University"
+name: "Yue Li"
+description: "PhD Candidate in Linguistics at Purdue University. I study animacy, syntactic processing, and large language models."
 url: "https://yue00831.github.io"
 baseurl: ""
 repository: "Yue00831/Yue00831.github.io"
 
 # Theme Settings
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "air"  # clean, professional look (other options: default, dark, dirt, mint, sunrise, etc.)
+minimal_mistakes_skin: "air"
 
-# Site Author
+# Site Author (sidebar)
 author:
-  name: "Yue Li"
-  avatar: "/assets/images/bio-photo.jpg"  # Add your photo here (recommended: 200x200px or larger square)
-  bio: "PhD Candidate in Linguistics at Purdue University. I study how humans and large language models process syntactic structures using behavioral experiments, computational modeling, and mechanistic interpretability."
+  name: "Yue Li (李悦)"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "PhD Candidate in Linguistics at Purdue University. I study how animacy shapes syntactic processing in humans and large language models."
   location: "West Lafayette, IN"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:YOUR_EMAIL@purdue.edu"
+      url: "mailto:li4443@purdue.edu"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=ZqTKdoAAAAAJ&hl=en"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/yue-li-34047933a/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Yue00831"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/yue-li-34047933a/"
+
+# Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Yue00831"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/yue-li-34047933a/"
 
 # Reading Files
 include:
@@ -53,17 +66,15 @@ plugins:
 
 # Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
       author_profile: true
-      read_time: true
-      share: true
-      related: true
-  # _pages
+      read_time: false
+      share: false
+      related: false
   - scope:
       path: "_pages"
       type: pages
