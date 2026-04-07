@@ -29,7 +29,7 @@ author_profile: true
 
 **Marley Mack** — Undergraduate Research Assistant, Purdue University (2024–present)
 
-![Marley Mack](/assets/images/Marley.jpg)
+<img src="/assets/images/Marley.jpg" alt="Marley Mack" class="mentee-avatar">
 
 - 🥇 **First Place**, 2025 Spring Undergraduate Research Conference — *Animacy in English Object Relative Clause Structure Choice: A Comparative Study Between L1 and L2*
 

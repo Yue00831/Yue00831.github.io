@@ -17,3 +17,12 @@
   filter: grayscale(0%) !important;
   opacity: 1 !important;
 }
+
+.mentee-avatar {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 10px;
+}
