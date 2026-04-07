@@ -5,4 +5,4 @@ permalink: /cv/
 author_profile: true
 ---
 
-Read my CV [here](/assets/files/YL_CV.pdf)
+Read my CV [here](/assets/files/Yue_Li_Academic_CV (5).pdf)
