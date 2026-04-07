@@ -35,7 +35,8 @@ I regularly use R (lme4, brms, ggplot2), Python (PyTorch, TransformerLens), Java
 
 ## Beyond Research
 
-I am passionate about building tools that make science easier for others. Check out some of our contributions to [Gorilla Open Science]([https://gorilla.sc/](https://app.gorilla.sc/openmaterials/1152228)), design features and tools to make experimental workflows more intuitive and data processing more accessible for others.
+I am passionate about building tools that make science more accessible. Check out some of my contributions to [Gorilla Open Science](https://app.gorilla.sc/openmaterials/1152228), 
+including designing features and tools that (I hope to) make experimental workflows more intuitive and data processing easier for others.
 
 ## Contact
 
