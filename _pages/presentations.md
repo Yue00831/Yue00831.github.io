@@ -5,6 +5,8 @@ permalink: /presentations/
 author_profile: true
 ---
 
+
+
 ## Invited Talks
 
 **May 2025** Gorilla Presents Webinar.
@@ -17,9 +19,9 @@ author_profile: true
 
 ### 2026
 
-**Li, Y.**, Francis, E., Khodadadi, G., Mack, M., Ok, S., Bahmanian, N., Fang, S., Michaelis, L. A., Sheu, V., & Weirick, J. _Effects of Verb Type and Prior Context on the Production of Relative Clause Extraposition in English_. Poster, **HSP 2026**, MIT.
-
 **Li, Y.**, Cong, Y., & Francis, E. _Illuminating Human Language Production via Mechanistic Interpretability of LM Circuits: Animacy Effects on Sentence Structure Choice_. Poster, **HSP 2026**, MIT.
+
+**Li, Y.**, Francis, E., Khodadadi, G., Mack, M., Ok, S., Bahmanian, N., Fang, S., Michaelis, L. A., Sheu, V., & Weirick, J. _Effects of Verb Type and Prior Context on the Production of Relative Clause Extraposition in English_. Poster, **HSP 2026**, MIT.
 
 **Li, Y.** & Francis, E. _Similarity-Based Interference in L2 Production of English Object Relative Clauses_. Poster, **HSP 2026**, MIT.
 
