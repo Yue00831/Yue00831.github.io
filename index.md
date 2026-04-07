@@ -20,9 +20,9 @@ My work draws on behavioral experiments, mechanistic interpretability methods, a
 ---
 
 ## News
-**[April 2026]** Our work  "Semantic Capacity in Language Learners and LLMs: A Case Study of Quantifier Scope" will be presented at [LREC 2026](https://www.elra.info/lrec2026/) (Palma de Mallorca (Spain), on 11-16 May 2026.
-**[March 2026]** Three first-author presentations at [HSP 2026](https://hsp2026.mit.edu/) (MIT): LLM: animacy_mechanistic interpretability; Human language production: animacy in L2 speakers, verb type and context effect on English relative clause extraposition.
-[![Animacy Mechanistic Interpretability poster](/assets/images/poster_animacy.png)](/assets/images/Animacy_LLMech_HSP2026.jpg)
+**[April 2026]** Fang, S.*, \textbf{Li, Y.*}, and Cong, Y. \textbf{Semantic Capacity in Language Learners and LLMs: A Case Study of Quantifier Scope}. In \textit{The Fifteenth biennial Language Resources and Evaluation Conference (LREC 2026), Spain}.
+
+**[March 2026]** Three first-author presentations at [HSP 2026](https://hsp2026.mit.edu/) (MIT): animacy effect, mech interp, relative clause extraposition
 
 ---
 
