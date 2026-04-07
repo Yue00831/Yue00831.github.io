@@ -7,16 +7,11 @@ author_profile: true
 
 ## Purdue University
 
-## Guest Lectures
-
-| Semester | Course |
-|---|---|
-| Fall 2024 | LING 398: Language Learning and AI, Purdue University |
-| Spring 2025 | LING 598: Statistical Modeling in Linguistics, Purdue University |
-
 | Semester | Role | Course |
 |---|---|---|
 | Fall 2025 | Instructor | Introduction to Linguistics (LING 201) |
+| Spring 2025 | Guest Lecturer | LING 598: Statistical Modeling in Linguistics |
+| Fall 2024 | Guest Lecturer | LING 398: Language Learning and AI |
 | Fall 2023 | Instructor | Introduction to Linguistics (LING 201) |
 | Spring 2023 | Instructor | Introduction to Linguistics (LING 201) |
 | Fall 2022 | Instructor | Chinese 101 |
