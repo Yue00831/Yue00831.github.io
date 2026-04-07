@@ -11,9 +11,9 @@ Most of my work sits at the intersection of computational modeling and psycholin
 
 ## Research Interests
 
-- **Computational Psycholinguistics** — I apply experimental and computational methods to study how humans process and produce language: *picture-based elicited production, self-paced reading, structural priming, mixed-effects modeling, Bayesian inference, surprisal theory*
+- **Computational Psycholinguistics** — I apply experimental and computational methods to study how humans and language models process and produce language.
 
-- **LLM Interpretability** — I probe the internal mechanisms of language models to understand how linguistic knowledge is encoded and used: *activation patching, attention head ablation, representational decoding, mechanistic interpretability* 
+- **LLM Interpretability** — I probe the internal mechanisms of language models to understand how linguistic knowledge is encoded and used.
 
 ---
 
@@ -31,16 +31,28 @@ Most of my work sits at the intersection of computational modeling and psycholin
 * **Jan 2026**
   Two presentations at **LSA 2026** (Linguistic Society of America) on animacy effects in ORC production/comprehension and quantifier scope in LLMs.
 
+---
 
 
 ## Methods
 
-I regularly use R (lme4, brms, ggplot2), Python (PyTorch, TransformerLens), JavaScript (Gorilla Experiment Builder), HPC cluster computing (Purdue Gilbreth).
+- **Computational & LLM Methods** — mechanistic interpretability (activation patching, 
+attention head ablation, representational decoding), LLM evaluation (BERT, GPT-2, 
+LLaMA, ChatGLM, DistilGPT2), surprisal-based analysis, attention and entropy analysis, 
+persona-based prompting via API, model fine-tuning and training, corpus-based analysis
+
+- **Psycholinguistics & Behavioral Experiments** — picture-based elicited production, 
+self-paced reading, structural priming, truth-value judgment, working memory assessment 
+(backward digit span), language proficiency testing (LexTALE)
+
+---
 
 ## Beyond Research
 
 I am passionate about building tools that make science more accessible. Check out some of my contributions to [Gorilla Open Science](https://app.gorilla.sc/openmaterials/1152228), 
 including designing features and tools that (I hope to) make experimental workflows more intuitive and data processing easier for others.
+
+---
 
 ## Contact
 
