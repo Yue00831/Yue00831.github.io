@@ -17,7 +17,7 @@ minimal_mistakes_skin: "air"
 # Site Author (sidebar)
 author:
   name: "Yue Li (李悦)"
-  avatar: "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/bio-photo.JPG"
   bio: "PhD Candidate in Linguistics at Purdue University. I study how animacy shapes syntactic processing in humans and large language models."
   location: "West Lafayette, IN"
   links:
