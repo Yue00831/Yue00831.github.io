@@ -7,12 +7,17 @@
 .author__avatar img {
   max-width: 175px;
   border-radius: 50%;
-  transition: none !important;
-  filter: none !important;
   -webkit-filter: none !important;
+  filter: none !important;
 }
 
+.author__avatar:hover img,
 .author__avatar img:hover {
-  filter: none !important;
   -webkit-filter: none !important;
+  filter: none !important;
+}
+
+.greedy-nav .author__avatar img {
+  -webkit-filter: none !important;
+  filter: none !important;
 }
