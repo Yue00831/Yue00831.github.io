@@ -33,6 +33,10 @@ Most of my work sits at the intersection of computational modeling and psycholin
 
 I regularly use R (lme4, brms, ggplot2), Python (PyTorch, TransformerLens), JavaScript (Gorilla Experiment Builder), HPC cluster computing (Purdue Gilbreth).
 
+## Beyond Research
+
+I am passionate about building tools that make science easier for others. Check out some of our contributions to [Gorilla Open Science]([https://gorilla.sc/](https://app.gorilla.sc/openmaterials/1152228)), design features and tools to make experimental workflows more intuitive and data processing more accessible for others.
+
 ## Contact
 
 📧 [li4207@purdue.edu](mailto:li4207@purdue.edu) · Department of Linguistics, Purdue University, West Lafayette, IN 47907
