@@ -4,7 +4,7 @@ author_profile: true
 permalink: /
 ---
 
-I am a fifth-year PhD candidate in Linguistics @ [Purdue University](https://www.purdue.edu/), affiliated with the [Experimental Linguistics (ExLing) Lab] (https://cla.purdue.edu/english/francislab/) and the [Computation and Linguistic Meaning (CALM) Lab](https://yancong222.github.io/). 
+I am a fifth-year PhD candidate in Linguistics @ [Purdue University](https://www.purdue.edu/), affiliated with the [Experimental Linguistics (ExLing) Lab](https://cla.purdue.edu/english/francislab/) and the [Computation and Linguistic Meaning (CALM) Lab](https://yancong222.github.io/). 
 Most of my work sits at the intersection of computational modeling and psycholinguistics, asking: *How can humans and language models mutually inform our understanding of language?*
 
 ---
