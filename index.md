@@ -4,19 +4,16 @@ author_profile: true
 permalink: /
 ---
 
-I am a fifth-year PhD candidate in Linguistics at [Purdue University](https://www.purdue.edu/), affiliated with the [Experimental Linguistics (ExLing) Lab](https://cla.purdue.edu/english/francislab/) and the [Computation and Linguistic Meaning (CALM) Lab](https://yancong222.github.io/). Most of my works bridge human psycholinguistics and computational modeling.
-
-My work draws on behavioral experiments, mechanistic interpretability methods, and computational modeling to understand how semantic features are represented and used in sentence processing.
+I am a fifth-year PhD candidate in Linguistics @ [Purdue University](https://www.purdue.edu/), affiliated with the [Experimental Linguistics (ExLing) Lab] (https://cla.purdue.edu/english/francislab/) and the [Computation and Linguistic Meaning (CALM) Lab](https://yancong222.github.io/). 
+Most of my work sits at the intersection of computational modeling and psycholinguistics, asking: *How can humans and language models mutually inform our understanding of language?*
 
 ---
 
 ## Research Interests
 
-- **Psycholinguistics** — animacy effects on syntactic processing and structure selection
-- **Computational Modeling** — linking functions between LLM behavior and human sentence processing
-- **Mechanistic Interpretability** — how neural networks represent linguistic information (e.g., activation patching, attention head ablation)
-- **Second Language Acquisition** — similarity-based interference in L2 production
+- **Computational Psycholinguistics** — I apply experimental and computational methods to study how humans process and produce language: *picture-based elicited production, self-paced reading, structural priming, mixed-effects modeling, Bayesian inference, surprisal theory*
 
+- **LLM Interpretability** — I probe the internal mechanisms of language models to understand how linguistic knowledge is encoded and used: *activation patching, attention head ablation, representational decoding, mechanistic interpretability*
 ---
 
 ## News 🎉
