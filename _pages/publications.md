@@ -31,15 +31,15 @@ Fang, S., **Li, Y.**, & Cong, Y. (2025). _Understanding Quantifier Scope with La
 
 **Li, Y.**, Cong, Y., & Francis, E. _Mechanistic Interpretability of Animacy Effects on Structure Choice in GPT-2_. Under review at **CoNLL 2026**.
 
-**Li, Y.** & Francis, E. _Rethinking Animacy in Relative Clauses: Accessibility and Competition Across Agent–Patient Configurations_. Under review at **Cognitive Linguistics**.
-
-Fang, S.\*, **Li, Y.\***, & Cong, Y. _Processing of Quantifier Scope: Experimental and Modeling Evidence from English and Chinese_. Under review at **Languages**.
-
 Fang, S.\*, **Li, Y.\***, & Cong, Y. _Language Models Approximate Human Sensitivity to the Syntax–Pragmatics Tension but Show Cross-Linguistic and Model Variation_. Under review at **Humanities and Social Sciences Communications**.
 
 ---
 
 ## In Preparation
+
+**Li, Y.** & Francis, E. _Rethinking Animacy in Relative Clauses: Accessibility and Competition Across Agent–Patient Configurations_. Manuscript completed and to submit to **Cognitive Linguistics**.
+
+Fang, S.\*, **Li, Y.\***, & Cong, Y. _Processing of Quantifier Scope: Experimental and Modeling Evidence from English and Chinese_. Manuscript completed and to submit to **Languages**.
 
 Fang, S., **Li, Y.**, Lu, J., & Cong, Y. _Semantic Representation Generalization in BabyLMs_.
 
