@@ -7,6 +7,11 @@ author_profile: true
 
 \* Equal contribution
 
+
+## Books
+
+Gómez-Alzate, E., **Li, Y.**, & Cuza, A. (in progress). _Language in Context: Ideologies, Policies, and Community-based Research._ Routledge.
+
 ---
 
 ## Proceedings & Journal Articles
