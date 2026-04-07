@@ -46,6 +46,8 @@ Fang, S.\*, **Li, Y.\***, & Cong, Y. _Language Models Approximate Human Sensitiv
 
 Fang, S.\*, **Li, Y.\***, & Cong, Y. _Processing of Quantifier Scope: Experimental and Modeling Evidence from English and Chinese_. Manuscript completed and to submit to **Languages**.
 
+**Li, Y.**, Khodadadi, G., Sheu, V., and Fang, S. _Priming and Lexical Boost Effects in the Comprehension of English Object Relative Clauses_. Manuscript in preparation.
+
 Fang, S., **Li, Y.**, Lu, J., & Cong, Y. _Semantic Representation Generalization in BabyLMs_.
 
 Francis, E., **Li, Y.**, Khodadadi, G., Mack, M., Ok, S., Bahmanian, N., Fang, S., Michaelis, L. A., Sheu, V., & Weirick, J. _Effects of Verb Type and Prior Context on the Production of Relative Clause Extraposition in English_.
