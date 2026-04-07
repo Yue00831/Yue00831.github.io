@@ -25,6 +25,16 @@ author_profile: true
 | 2019–2020 | Instructor | Chinese Culture Public Lecture |
 
 
+## Mentoring
+
+**Marley Mack** — Undergraduate Research Assistant, Purdue University (2024–present)
+
+![Marley Mack](/assets/images/Marley.jpg)
+
+- 🥇 **First Place**, 2025 Spring Undergraduate Research Conference — *Animacy in English Object Relative Clause Structure Choice: A Comparative Study Between L1 and L2*
+
+
+
 ## Service
 
 | Year | Role | Organization |
@@ -32,3 +42,4 @@ author_profile: true
 | 2024–2025 | President & Symposium Chair [Purdue Linguistics Symposiym](https://web.ics.purdue.edu/~pla2006/symposium/2025/index.html) | Purdue Linguistics Association |
 | 2023–2024 | Vice President | Purdue Linguistics Association |
 | 2019–2020 | Project Leader & Operator | Chinese Culture Public Lecture, UCAS, Beijing |
+
