@@ -23,3 +23,12 @@ author_profile: true
 | Year | Role | Course |
 |---|---|---|
 | 2019–2020 | Instructor | Chinese Culture Public Lecture |
+
+
+## Service
+
+| Year | Role | Organization |
+|---|---|---|
+| 2024–2025 | President & Symposium Chair [Purdue Linguistics Symposiym](https://web.ics.purdue.edu/~pla2006/symposium/2025/index.html) | Purdue Linguistics Association |
+| 2023–2024 | Vice President | Purdue Linguistics Association |
+| 2019–2020 | Project Leader & Operator | Chinese Culture Public Lecture, UCAS, Beijing |
