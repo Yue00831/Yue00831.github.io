@@ -20,7 +20,8 @@ My work draws on behavioral experiments, mechanistic interpretability methods, a
 ---
 
 ## News
-**[April 2026]** Fang, S.*, \textbf{Li, Y.*}, and Cong, Y. \textbf{Semantic Capacity in Language Learners and LLMs: A Case Study of Quantifier Scope}. In \textit{The Fifteenth biennial Language Resources and Evaluation Conference (LREC 2026), Spain}.
+
+**[April 2026]** Fang, S.*, **Li, Y.***, and Cong, Y. _Semantic Capacity in Language Learners and LLMs: A Case Study of Quantifier Scope_. In **The Fifteenth biennial Language Resources and Evaluation Conference (LREC 2026)**, Spain.
 
 **[March 2026]** Three first-author presentations at [HSP 2026](https://hsp2026.mit.edu/) (MIT): animacy effect, mech interp, relative clause extraposition
 
