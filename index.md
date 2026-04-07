@@ -19,7 +19,7 @@ My work draws on behavioral experiments, mechanistic interpretability methods, a
 
 ---
 
-## News
+## News 🎉
 
 **[April 2026]** Fang, S.\*, **Li, Y.\***, & Cong, Y. _Semantic Capacity in Language Learners and LLMs: A Case Study of Quantifier Scope_. In **The Fifteenth Biennial Language Resources and Evaluation Conference (LREC 2026)**, Spain.
 
@@ -30,6 +30,11 @@ My work draws on behavioral experiments, mechanistic interpretability methods, a
 - **Li, Y.**, Francis, E. J., & Mack, M. _Similarity-Based Interference in L2 Production of English Object Relative Clauses._ \[[Poster](/assets/files/Animacy_L2_English_HSP2026.jpg)\]
 
 - **Li, Y.**, Francis, E. J., Khodadadi, G., Mack, M., Ok, S., Bahmanian, N., Fang, S., Michaelis, L. A., Sheu, V., & Weirick, J. _Effects of Verb Type and Prior Context on the Production of Relative Clause Extraposition in English._ \[[Poster](/assets/files/RCE_HSP2026.jpg)\]
+
+
+## Methods
+
+I regularly use R (lme4, brms, ggplot2), Python (PyTorch, TransformerLens), JavaScript (Gorilla Experiment Builder), HPC cluster computing (Purdue Gilbreth).
 
 ## Contact
 
