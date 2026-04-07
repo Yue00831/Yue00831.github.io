@@ -12,7 +12,9 @@ Most of my work sits at the intersection of computational modeling and psycholin
 ## Research Interests
 
 - **Computational Psycholinguistics** — I apply experimental and computational methods to study how humans process and produce language: *picture-based elicited production, self-paced reading, structural priming, mixed-effects modeling, Bayesian inference, surprisal theory*
-- **LLM Interpretability** — I probe the internal mechanisms of language models to understand how linguistic knowledge is encoded and used: *activation patching, attention head ablation, representational decoding, mechanistic interpretability*
+
+- **LLM Interpretability** — I probe the internal mechanisms of language models to understand how linguistic knowledge is encoded and used: *activation patching, attention head ablation, representational decoding, mechanistic interpretability* 
+
 ---
 
 ## News 🎉
