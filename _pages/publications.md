@@ -34,6 +34,8 @@ Fang, S., **Li, Y.**, & Cong, Y. (2025). _Understanding Quantifier Scope with La
 
 ## Under Review
 
+**Li, Y.** & Francis, E. _Rethinking Animacy in Relative Clauses: Accessibility and Competition Across Agent–Patient Configurations_. Under review at **Cognitive Linguistics**.
+
 **Li, Y.**, Cong, Y., & Francis, E. _Mechanistic Interpretability of Animacy Effects on Structure Choice in GPT-2_. Under review at **CoNLL 2026**.
 
 Fang, S.\*, **Li, Y.\***, & Cong, Y. _Processing of Quantifier Scope: Experimental and Modeling Evidence from English and Chinese_. Under review at **Languages**.
@@ -44,7 +46,6 @@ Fang, S.\*, **Li, Y.\***, & Cong, Y. _Language Models Approximate Human Sensitiv
 
 ## In Preparation
 
-**Li, Y.** & Francis, E. _Rethinking Animacy in Relative Clauses: Accessibility and Competition Across Agent–Patient Configurations_. Manuscript completed and to submit to **Cognitive Linguistics**.
 
 **Li, Y.**, Khodadadi, G., Sheu, V., and Fang, S. _Priming and Lexical Boost Effects in the Comprehension of English Object Relative Clauses_. Manuscript in preparation.
 
