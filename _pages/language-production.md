@@ -7,13 +7,6 @@ author_profile: true
 
 [← Back to Presentations](/presentations/)
 
-### 2026
-
-**Li, Y.**, Cong, Y., & Francis, E. _Illuminating Human Language Production via Mechanistic Interpretability of LM Circuits: Animacy Effects on Sentence Structure Choice_. Poster, **HSP 2026**, MIT.
-
-<a href="/assets/files/Animacy_LLMech_HSP2026.jpg" target="_blank"><img src="/assets/files/Animacy_LLMech_HSP2026.jpg" width="100%" style="border:1px solid #ddd; border-radius:4px; margin:0.8rem 0 1.5rem;"></a>
-
----
 
 **Li, Y.**, Francis, E., Khodadadi, G., Mack, M., Ok, S., Bahmanian, N., Fang, S., Michaelis, L. A., Sheu, V., & Weirick, J. _Effects of Verb Type and Prior Context on the Production of Relative Clause Extraposition in English_. Poster, **HSP 2026**, MIT.
 
