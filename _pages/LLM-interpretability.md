@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Language Production"
-permalink: /presentations/LLM-interpretability/
+title: "LLM Interpretability"
+permalink: /presentations/llm-interpretability/
 author_profile: true
 ---
 
