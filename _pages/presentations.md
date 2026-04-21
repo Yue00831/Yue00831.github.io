@@ -6,6 +6,11 @@ author_profile: true
 ---
 
 
+<div style="display:flex; gap:1rem; margin:1.5rem 0 2.5rem;">
+  <a href="/presentations/language-production/" style="display:inline-block; padding:0.8rem 1.8rem; background:#2a52a0; color:white; text-decoration:none; border-radius:4px; font-size:1rem;">Language Production</a>
+  <a href="/presentations/llm-interpretability/" style="display:inline-block; padding:0.8rem 1.8rem; background:#2a52a0; color:white; text-decoration:none; border-radius:4px; font-size:1rem;">LLM Interpretability</a>
+</div>
+
 
 ## Invited Talks
 
