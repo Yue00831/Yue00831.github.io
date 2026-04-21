@@ -18,6 +18,8 @@ Gómez-Alzate, E., **Li, Y.**, & Cuza, A. (in progress). _Language in Context: I
 
 **2026**
 
+**Li, Y.**, Cong, Y., & Francis, E. _Mechanistic Interpretability of Animacy Effects on Structure Choice in GPT-2_. **CoNLL 2026**, San Diego, California, United States, July 3-4, 2026.
+
 Fang, S.\*, **Li, Y.\***, & Cong, Y. (2026). _Semantic Capacity in Language Learners and LLMs: A Case Study of Quantifier Scope_. In **The Fifteenth Biennial Language Resources and Evaluation Conference (LREC 2026)**, Spain.
 
 **2025**
@@ -35,8 +37,6 @@ Fang, S., **Li, Y.**, & Cong, Y. (2025). _Understanding Quantifier Scope with La
 ## Under Review
 
 **Li, Y.** & Francis, E. _Rethinking Animacy in Relative Clauses: Accessibility and Competition Across Agent–Patient Configurations_. Under review at **Cognitive Linguistics**.
-
-**Li, Y.**, Cong, Y., & Francis, E. _Mechanistic Interpretability of Animacy Effects on Structure Choice in GPT-2_. Under review at **CoNLL 2026**.
 
 Fang, S.\*, **Li, Y.\***, & Cong, Y. _Processing of Quantifier Scope: Experimental and Modeling Evidence from English and Chinese_. Under review at **Languages**.
 

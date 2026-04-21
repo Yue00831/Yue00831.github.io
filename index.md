@@ -20,6 +20,9 @@ Most of my work sits at the intersection of computational modeling and psycholin
 ## News 🎉
 
 * **Apr 2026**
+  📑 Our recent work, Mechanistic Interpretability of Animacy Effects on Structure Choice in GPT-2, accepted at **CoNLL 2026**.
+
+* **Mar 2026**
   📑 Our recent work, LLM evaluation on semantically ambiguous structures (_Semantic Capacity in Language Learners and LLMs_), accepted at **LREC 2026**. Talk available soon.
 
 * **Mar 2026**
@@ -28,11 +31,6 @@ Most of my work sits at the intersection of computational modeling and psycholin
   - **Li, Y.**, Francis, E. J., & Mack, M. _Similarity-Based Interference in L2 Production of English Object Relative Clauses._ \[[Poster](/assets/files/Animacy_L2_English_HSP2026.jpg)\]
   - **Li, Y.**, Francis, E. J., Khodadadi, G., Mack, M., Ok, S., Bahmanian, N., Fang, S., Michaelis, L. A., Sheu, V., & Weirick, J. _Effects of Verb Type and Prior Context on the Production of Relative Clause Extraposition in English._ \[[Poster](/assets/files/RCE_HSP2026.jpg)\]
 
-* **Feb 2026**
-  📖 Edited volume contract signed with Routledge -- Gómez-Alzate, E., **Li, Y.**, & Cuza, A. _Language in Context: Ideologies, Policies, and Community-based Research._ (in progress). Thanks to all contributors
-
-* **Jan 2026**
-  Two presentations at **LSA 2026** (Linguistic Society of America) on animacy effects in ORC production/comprehension and quantifier scope in LLMs.
 
 ---
 
