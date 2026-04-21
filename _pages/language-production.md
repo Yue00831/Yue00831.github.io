@@ -22,7 +22,7 @@ author_profile: true
 
 **Li, Y.** & Francis, E. _Animacy Effects in Production and Comprehension of English Object Relative Clauses_. Oral, **LSA 2026**.
 
-<div><a href="/assets/files/LSA_2026_presentation.pdf" target="_blank" style="display:block; margin:0.8rem 0 1.5rem;"><iframe src="/assets/files/LSA_2026_presentation.pdf" width="100%" height="200px" style="border:1px solid #ddd; border-radius:4px; pointer-events:none;"></iframe></a></div>
+<a href="/assets/files/LSA_2026_presentation.pdf" target="_blank"><img src="/assets/files/LSA_2026_animacy_cover.jpg" width="100%" style="border:1px solid #ddd; border-radius:4px; margin:0.8rem 0 1.5rem;"></a>
 
 ---
 
