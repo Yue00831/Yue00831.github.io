@@ -14,13 +14,9 @@ author_profile: true
 
 ## Invited Talks
 
-**May 2026** [_Does a language model know what's alive?_](/talks/ucas-2026/) **University of Chinese Academy of Sciences**.
+**May 13th 2026** [_Does a language model know what's alive?_](/talks/ucas-2026/) **University of Chinese Academy of Sciences**.
 
-
-**May 2026** _From LLM–Human Behavioral Alignment to Mechanistic Interpretability: Animacy and Similarity-Based Interference in Object Relative Clauses_ **SEAL Lab & Experimental Meaning Group** @ Northwestern University.
-
-<a href="/assets/files/Mech_Interp_Northwestern_2026_slides.pdf" target="_blank"><img src="/assets/files/Mech_Interp_Northwestern_2026_slides_cover.jpg" width="25%" style="border:1px solid #ddd; border-radius:4px; margin:0.8rem 0 1.5rem;"></a>
-
+**May 1st 2026** [_From LLM–Human Behavioral Alignment to Mechanistic Interpretability: Animacy and Similarity-Based Interference in Object Relative Clauses_](/talks/northwestern-2026/) **SEAL Lab & Experimental Meaning Group** @ Northwestern University.
 
 **May 2025** Gorilla Presents Webinar.
 
