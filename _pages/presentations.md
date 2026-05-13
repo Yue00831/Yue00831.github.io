@@ -14,9 +14,7 @@ author_profile: true
 
 ## Invited Talks
 
-**May 2026** _Does a language model know what's alive?_ **University of Chinese Academy of Sciences**.
-
-<a href="/assets/files/YL_UCAS_talk_final.pdf" target="_blank"><img src="/assets/files/YL_UCAS_talk_cover.jpg" width="25%" style="border:1px solid #ddd; border-radius:4px; margin:0.8rem 0 1.5rem;"></a>
+**May 2026** [_Does a language model know what's alive?_](/talks/ucas-2026/) **University of Chinese Academy of Sciences**.
 
 
 **May 2026** _From LLM–Human Behavioral Alignment to Mechanistic Interpretability: Animacy and Similarity-Based Interference in Object Relative Clauses_ **SEAL Lab & Experimental Meaning Group** @ Northwestern University.
