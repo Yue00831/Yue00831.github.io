@@ -35,11 +35,11 @@ author_profile: true
 
 - **LLLC COLLOQUIUM AWARDS**, 2026 Spring Undergraduate Research Conference - *Effects of verb type and prior context on the production of relative clause extraposition in English* mentored by **Yue Li** & Elaine J Francis.
 
-**Purdue Wilke Program RAs** -- 
-Genz, A., Gonzalez, A., & Barsoum, H. (2026). _The Role of Verb Phrase and Relative Clause Phrase Length in Relative Clause Extraposition_. Purdue Undergraduate Research Conference, West Lafayette, IN. Poster. Mentored by Jingying Hu, **Yue Li**, Elaine J Francis.
+**Purdue Wilke Program RAs** (2025–2026) — *Mentored by Jingying Hu, **Yue Li**, & Elaine J. Francis*
 
-O'Donnell, E., Piper†, S., & Wong, T. (2026). _Effects of Discourse-Related Factors on Relative Clause Extraposition_. Purdue Undergraduate Research Conference, West Lafayette, IN. Poster. Mentored by Jingying Hu, **Yue Li**, Elaine J Francis.
+- Genz, A., Gonzalez, A., & Barsoum, H. (2026). *The Role of Verb Phrase and Relative Clause Phrase Length in Relative Clause Extraposition*. Poster, Purdue Undergraduate Research Conference, West Lafayette, IN.
 
+- O'Donnell, E., Piper, S., & Wong, T. (2026). *Effects of Discourse-Related Factors on Relative Clause Extraposition*. Poster, Purdue Undergraduate Research Conference, West Lafayette, IN.
 
 ## Service
 
