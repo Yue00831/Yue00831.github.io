@@ -31,15 +31,21 @@ author_profile: true
 
 <img src="/assets/images/Marley.jpg" alt="Marley Mack" class="mentee-avatar">
 
-- 🥇 **First Place**, 2025 Spring Undergraduate Research Conference — *Animacy in English Object Relative Clause Structure Choice: A Comparative Study Between L1 and L2*
+- 🥇 **First Place**, 2025 Spring Undergraduate Research Conference — *Animacy in English Object Relative Clause Structure Choice: A Comparative Study Between L1 and L2* mentored by **Yue Li** & Elaine J Francis.
 
+- **LLLC COLLOQUIUM AWARDS**, 2026 Spring Undergraduate Research Conference - *Effects of verb type and prior context on the production of relative clause extraposition in English* mentored by **Yue Li** & Elaine J Francis.
+
+**Purdue Wilke Program RAs** -- 
+Genz, A., Gonzalez, A., & Barsoum, H. (2026). _The Role of Verb Phrase and Relative Clause Phrase Length in Relative Clause Extraposition_. Purdue Undergraduate Research Conference, West Lafayette, IN. Poster. Mentored by Jingying Hu, **Yue Li**, Elaine J Francis.
+
+O'Donnell, E., Piper†, S., & Wong, T. (2026). _Effects of Discourse-Related Factors on Relative Clause Extraposition_. Purdue Undergraduate Research Conference, West Lafayette, IN. Poster. Mentored by Jingying Hu, **Yue Li**, Elaine J Francis.
 
 
 ## Service
 
 | Year | Role | Organization |
 |---|---|---|
-| 2024–2025 | President & Symposium Chair [Purdue Linguistics Symposiym](https://web.ics.purdue.edu/~pla2006/symposium/2025/index.html) | Purdue Linguistics Association |
+| 2024–2025 | President & Symposium Chair [2025 Purdue Linguistics Symposium](assets/files/PLS2025_progra_YueL.pdf) | Purdue Linguistics Association |
 | 2023–2024 | Vice President | Purdue Linguistics Association |
 | 2019–2020 | Project Leader & Operator | Chinese Culture Public Lecture, UCAS, Beijing |
 
