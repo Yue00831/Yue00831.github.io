@@ -29,8 +29,6 @@ author_profile: true
 
 **Marley Mack** — Undergraduate Research Assistant, Purdue University (2024–present)
 
-<img src="/assets/images/Marley.jpg" alt="Marley Mack" class="mentee-avatar">
-
 - 🥇 **First Place**, 2025 Spring Undergraduate Research Conference — *Animacy in English Object Relative Clause Structure Choice: A Comparative Study Between L1 and L2* mentored by **Yue Li** & Elaine J Francis.
 
 - **LLLC COLLOQUIUM AWARDS**, 2026 Spring Undergraduate Research Conference - *Effects of verb type and prior context on the production of relative clause extraposition in English* mentored by **Yue Li** & Elaine J Francis.
