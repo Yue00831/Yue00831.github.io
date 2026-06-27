@@ -18,6 +18,8 @@ Gómez-Alzate, E., **Li, Y.**, & Cuza, A. (in progress). _Language in Context: I
 
 **2026**
 
+Fang, S.\*, **Li, Y.\***, & Cong, Y. (2026). _Semantic Processing and Individual Variation: Experimental and Modeling Evidence from Quantifier Scope_. **Languages**, Languages, 11(6), 126.
+
 **Li, Y.**, Cong, Y., & Francis, E. _Mechanistic Interpretability of Animacy Effects on Structure Choice in GPT-2_. **CoNLL 2026**, San Diego, California, United States, July 3-4, 2026.
 
 Fang, S.\*, **Li, Y.\***, & Cong, Y. (2026). _Semantic Capacity in Language Learners and LLMs: A Case Study of Quantifier Scope_. In **The Fifteenth Biennial Language Resources and Evaluation Conference (LREC 2026)**, Spain.
