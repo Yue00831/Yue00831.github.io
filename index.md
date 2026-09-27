@@ -4,8 +4,8 @@ author_profile: true
 permalink: /
 ---
 
-I am a fifth-year PhD candidate in Linguistics @ [Purdue University](https://www.purdue.edu/), affiliated with the [Experimental Linguistics (ExLing) Lab](https://cla.purdue.edu/english/francislab/) and the [Computation and Linguistic Meaning (CALM) Lab](https://yancong222.github.io/). 
-Most of my work sits at the intersection of computational modeling and psycholinguistics, asking: *How can humans and language models mutually inform our understanding of language?*
+I am a Postdoctoral Scholar in the Department of Linguistics at [The Ohio State University](https://linguistics.osu.edu/), working in computational psycholinguistics at the intersection of language, cognition, and artificial intelligence. My research focuses on the interpretability and evaluation of language models, using insights from psycholinguistics to investigate how models represent and process language. I received my Ph.D. in Linguistics from [Purdue University](https://www.purdue.edu/) in August 2026, where I was advised by [Dr. Elaine Francis](https://cla.purdue.edu/english/francislab/elaine-francis-homepage/).
+
 
 ---
 
