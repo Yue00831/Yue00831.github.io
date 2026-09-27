@@ -4,7 +4,7 @@ author_profile: true
 permalink: /
 ---
 
-I am a Postdoctoral Scholar in the Department of Linguistics at [The Ohio State University](https://linguistics.osu.edu/), working in computational psycholinguistics at the intersection of language, cognition, and artificial intelligence. My research focuses on the interpretability and evaluation of language models, using insights from psycholinguistics to investigate how models represent and process language. I received my Ph.D. in Linguistics from [Purdue University](https://www.purdue.edu/) in August 2026, where I was advised by [Dr. Elaine Francis](https://cla.purdue.edu/english/francislab/elaine-francis-homepage/).
+I am a Postdoctoral Scholar in the Department of Linguistics at [The Ohio State University](https://linguistics.osu.edu/), working in computational psycholinguistics. My primiary focus now is on the interpretability and evaluation of language models, using insights from psycholinguistics to investigate how models represent and process language. I received my Ph.D. in Linguistics from [Purdue University](https://www.purdue.edu/) in August 2026, where I was advised by [Dr. Elaine Francis](https://cla.purdue.edu/english/francislab/elaine-francis-homepage/).
 
 
 ---
