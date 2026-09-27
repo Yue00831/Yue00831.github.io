@@ -3,9 +3,9 @@
 locale: "en-US"
 title: "Yue Li"
 title_separator: "|"
-subtitle: "PhD Candidate in Linguistics · Purdue University"
+subtitle: "Postdoctoral Scholar in Linguistics · The Ohio State University"
 name: "Yue Li"
-description: "PhD Candidate in Linguistics at Purdue University. I study animacy, syntactic processing, and large language models."
+description: Postdoctoral Scholar in Linguistics at The Ohio State University."
 url: "https://yue00831.github.io"
 baseurl: ""
 repository: "Yue00831/Yue00831.github.io"
@@ -16,9 +16,9 @@ minimal_mistakes_skin: "air"
 
 # Site Author (sidebar)
 author:
-  name: "Yue Li (李悦)"
+  name: "Yue Li, Ph.D. (李悦)"
   avatar: "/assets/images/bio-photo.JPG"
-  bio: "PhD Candidate in Linguistics at Purdue University. I study how language is constructed and represented in both humans and machines."
+  bio: "Postdoctoral Scholar in Linguistics at The Ohio State University. I study how language is constructed and represented in both humans and machines."
   location: "West Lafayette, IN"
   links:
     - label: "Email"

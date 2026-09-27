@@ -4,6 +4,11 @@ title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
+## The Ohio State University
+
+| Semester | Role | Course |
+|---|---|---|
+| Fall 2026 | Instructor | Human and AI Language Models (LING3804) |
 
 ## Purdue University
 
