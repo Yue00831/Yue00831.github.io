@@ -19,11 +19,11 @@ author:
   name: "Yue Li, Ph.D. (李悦)"
   avatar: "/assets/images/bio-photo.JPG"
   bio: "Postdoctoral Scholar in Linguistics at The Ohio State University. I study how language is constructed and represented in both humans and machines."
-  location: "West Lafayette, IN"
+  location: "Columbus, OH"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:li4207@purdue.edu"
+      url: "mailto:li.17446@osu.edu"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=ZqTKdoAAAAAJ&hl=en&oi=sra"
@@ -50,7 +50,7 @@ include:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: America/Indiana/Indianapolis
+timezone: America/Ohio/Columbus
 
 # Pagination
 paginate: 5
