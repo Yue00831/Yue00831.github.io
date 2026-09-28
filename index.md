@@ -55,4 +55,4 @@ including designing features and tools that (I hope to) make experimental workfl
 
 ## Contact
 
-📧 [li4207@purdue.edu](mailto:li4207@purdue.edu) · Department of Linguistics, Purdue University, West Lafayette, IN 47907
+📧 [li.17446@osu.edu](mailto:li.17446@osu.edu) · Department of Linguistics, The Ohio State University, Columbus, OH, USA
